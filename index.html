@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohand Mouacha | Software Developer & AI Expert</title>
+    <meta name="description" content="Portfolio of Mohand Mouacha - Software Developer and Artificial Intelligence Expert specializing in scalable web systems, AI algorithms, and secure software development.">
+    <!-- Google Fonts & Font Awesome Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Background Canvas / Animated Ambient Lights -->
+    <div class="ambient-background">
+        <div class="glow-orb orb-1"></div>
+        <div class="glow-orb orb-2"></div>
+        <div class="glow-orb orb-3"></div>
+        <div class="grid-overlay"></div>
+    </div>
+
+    <!-- Navigation Header -->
+    <header class="navbar">
+        <a href="#hero" class="nav-logo">
+            <span class="logo-accent">&lt;</span>MM<span class="logo-accent"> /&gt;</span>
+        </a>
+        <nav class="nav-links">
+            <a href="#hero" class="nav-item active" data-slide="0">Home</a>
+            <a href="#about" class="nav-item" data-slide="1">About</a>
+            <a href="#skills" class="nav-item" data-slide="2">Skills</a>
+            <a href="#projects" class="nav-item" data-slide="3">Projects</a>
+            <a href="#languages" class="nav-item" data-slide="4">Languages</a>
+            <a href="#interests" class="nav-item" data-slide="5">Interests</a>
+            <a href="#contact" class="nav-item" data-slide="6">Contact</a>
+        </nav>
+        <div class="nav-cta">
+            <a href="#contact" class="btn btn-glow-sm">Hire Me</a>
+        </div>
+        <button class="mobile-menu-toggle" aria-label="Toggle navigation menu">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+    </header>
+
+    <!-- Side Slide Dots Indicator -->
+    <div class="side-dots-nav" aria-label="Slide Navigation">
+        <button class="dot-btn active" data-slide="0" title="Home / Hero"></button>
+        <button class="dot-btn" data-slide="1" title="About Me"></button>
+        <button class="dot-btn" data-slide="2" title="Skills over Education"></button>
+        <button class="dot-btn" data-slide="3" title="Experience & Projects"></button>
+        <button class="dot-btn" data-slide="4" title="Languages & Soft Skills"></button>
+        <button class="dot-btn" data-slide="5" title="Interests & Hobbies"></button>
+        <button class="dot-btn" data-slide="6" title="Contact & Socials"></button>
+    </div>
+
+    <!-- Main Deck Scroll Snap Container -->
+    <main class="slide-container">
+
+        <!-- SLIDE 1: HERO / WELCOME SCREEN -->
+        <section id="hero" class="slide active-slide">
+            <div class="slide-content hero-content">
+                <div class="badge-pill">
+                    <span class="badge-dot"></span> Available for AI & Tech Innovations
+                </div>
+                <h1 class="hero-title">
+                    Hello, I'm <span class="gradient-text">Mohand Mouacha</span>
+                </h1>
+                <h2 class="hero-subtitle">
+                    <span class="typing-text">Software Developer</span> & <span class="neon-purple-text">AI Expert</span>
+                </h2>
+                <p class="hero-description">
+                    Welcome to my digital universe. As an ambitious developer with designer flair and technical mastery, I bridge high-performance software architecture with state-of-the-art Artificial Intelligence. Dive into my journey and explore how I transform complex algorithmic logic into elegant, human-centered digital experiences.
+                </p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary">
+                        <span>Explore My Work</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <span>Get In Touch</span>
+                        <i class="fa-solid fa-paper-plane"></i>
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-card">
+                        <span class="stat-number">17</span>
+                        <span class="stat-label">Years Old Prodigy</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">5+</span>
+                        <span class="stat-label">Core Tech Stacks</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">3</span>
+                        <span class="stat-label">Languages Spoken</span>
+                    </div>
+                </div>
+            </div>
+            <a href="#about" class="scroll-down-indicator" aria-label="Scroll to next slide">
+                <i class="fa-solid fa-chevron-down"></i>
+            </a>
+        </section>
+
+        <!-- SLIDE 2: ABOUT ME & PROFILE -->
+        <section id="about" class="slide">
+            <div class="slide-content grid-2-col">
+                <div class="profile-image-wrapper">
+                    <div class="profile-card">
+                        <div class="profile-img-container">
+                            <img src="profile.jpg" alt="Mohand Mouacha - Software Developer and AI Expert" class="profile-img">
+                            <div class="profile-glow"></div>
+                        </div>
+                        <div class="profile-card-footer">
+                            <h3 class="profile-name">Mohand Mouacha</h3>
+                            <p class="profile-tagline">Tech Visionary & Problem Solver</p>
+                            <div class="profile-location">
+                                <i class="fa-solid fa-location-dot"></i> Drâa-Tafilalet, Morocco
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-text-content">
+                    <div class="section-tag">&lt; 02. About Me &gt;</div>
+                    <h2 class="section-heading">Driven by Curiosity, Defined by <span class="gradient-text">Innovation</span></h2>
+                    <p class="lead-text">
+                        At just 17 years old, I am deeply passionate about cutting-edge technology, problem-solving, and continuous learning. Combining software development skills with advanced artificial intelligence expertise, I build smart, efficient, and scalable digital solutions.
+                    </p>
+                    <p class="body-text">
+                        My dedication to coding and technology drives me to constantly explore modern frameworks, advanced algorithms, and secure system architectures. Rather than waiting for opportunities, I actively craft them through deliberate practice, architectural research, and hands-on system building. My ultimate vision is to engineer autonomous AI systems and high-throughput software ecosystems that empower users across the globe.
+                    </p>
+
+                    <div class="mindset-highlights">
+                        <div class="mindset-item">
+                            <i class="fa-solid fa-brain glow-icon"></i>
+                            <div>
+                                <h4>Analytical Mindset</h4>
+                                <p>Deconstructing complex problems into elegant, maintainable code structures.</p>
+                            </div>
+                        </div>
+                        <div class="mindset-item">
+                            <i class="fa-solid fa-bolt glow-icon"></i>
+                            <div>
+                                <h4>Relentless Drive</h4>
+                                <p>Continuous self-directed learning and mastery of emerging AI techniques.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SLIDE 3: SKILLS OVER EDUCATION -->
+        <section id="skills" class="slide">
+            <div class="slide-content">
+                <div class="section-header text-center">
+                    <div class="section-tag">&lt; 03. Technical Capabilities &gt;</div>
+                    <h2 class="section-heading">Skills Over <span class="gradient-text">Education</span></h2>
+                    <p class="section-subheading">
+                        True expertise is forged through real-world implementation, deep architectural understanding, and relentless practice.
+                    </p>
+                </div>
+
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <i class="fa-brands fa-html5 skill-icon html-color"></i>
+                            <i class="fa-brands fa-css3-alt skill-icon css-color"></i>
+                            <i class="fa-brands fa-js skill-icon js-color"></i>
+                        </div>
+                        <h3>HTML, CSS & JavaScript</h3>
+                        <p class="skill-desc">Modern responsive web architectures, semantic layouts, CSS animations, glassmorphism, and asynchronous ES6+ JavaScript development.</p>
+                        <div class="skill-bar-container"><div class="skill-bar" style="width: 95%;"></div></div>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <i class="fa-brands fa-python skill-icon python-color"></i>
+                        </div>
+                        <h3>Python</h3>
+                        <p class="skill-desc">Data processing pipelines, machine learning algorithms, rapid prototyping, automation scripts, and scalable back-end microservices.</p>
+                        <div class="skill-bar-container"><div class="skill-bar" style="width: 90%;"></div></div>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <i class="fa-solid fa-code skill-icon c-color"></i>
+                        </div>
+                        <h3>C Programming</h3>
+                        <p class="skill-desc">Low-level system programming, manual memory management, algorithmic optimization, data structures, and hardware interface interaction.</p>
+                        <div class="skill-bar-container"><div class="skill-bar" style="width: 85%;"></div></div>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <i class="fa-brands fa-java skill-icon java-color"></i>
+                        </div>
+                        <h3>Java</h3>
+                        <p class="skill-desc">Object-oriented software design, robust application frameworks, concurrent programming, and cross-platform enterprise software solutions.</p>
+                        <div class="skill-bar-container"><div class="skill-bar" style="width: 82%;"></div></div>
+                    </div>
+
+                    <div class="skill-card highlight-card">
+                        <div class="skill-header">
+                            <i class="fa-solid fa-shield-halved skill-icon kali-color"></i>
+                        </div>
+                        <h3>Kali Linux & Cybersecurity</h3>
+                        <p class="skill-desc">Penetration testing fundamentals, network security analysis, vulnerability research, ethical hacking methodology, and hardened Linux administration.</p>
+                        <div class="skill-bar-container"><div class="skill-bar" style="width: 88%;"></div></div>
+                    </div>
+                </div>
+
+                <div class="skills-explanatory-text glass-panel">
+                    <p>
+                        <i class="fa-solid fa-quote-left quote-icon"></i>
+                        My philosophy prioritizes practical technical mastery over passive certification. Through hands-on coding and rigorous security practices in environments like Kali Linux, I develop secure system practices that protect modern web infrastructure while engineering algorithmically efficient code bases to solve high-impact technological challenges.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SLIDE 4: EXPERIENCE & PROJECTS -->
+        <section id="projects" class="slide">
+            <div class="slide-content">
+                <div class="section-header text-center">
+                    <div class="section-tag">&lt; 04. Selected Works &gt;</div>
+                    <h2 class="section-heading">Experience & <span class="gradient-text">Projects</span></h2>
+                    <p class="section-subheading">
+                        Showcasing hands-on software development, coding projects, and exploration into artificial intelligence algorithms.
+                    </p>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card">
+                        <div class="project-badge">Featured Portfolio</div>
+                        <div class="project-content">
+                            <div class="project-meta">
+                                <i class="fa-solid fa-laptop-code"></i> Web Design / Showcase
+                            </div>
+                            <h3 class="project-title">Aissa Ammouri Portfolio</h3>
+                            <p class="project-description">
+                                A custom-designed, fully responsive professional portfolio developed with high precision typography, optimized asset delivery, and fluid section animations. Demonstrates sleek front-end presentation standards.
+                            </p>
+                            <div class="project-tags">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>JavaScript</span>
+                                <span>GitHub Pages</span>
+                            </div>
+                            <a href="https://mohandmouacha.github.io/Aissa-Ammouri-Portfolio/" target="_blank" rel="noopener noreferrer" class="btn-link">
+                                <span>Visit Live Site</span> <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card">
+                        <div class="project-badge">Web Application</div>
+                        <div class="project-content">
+                            <div class="project-meta">
+                                <i class="fa-solid fa-file-user"></i> Digital Resume
+                            </div>
+                            <h3 class="project-title">Ihmadi Resume Web</h3>
+                            <p class="project-description">
+                                A dynamic personal career platform and interactive CV web system engineered to showcase skills, experience timeline, and project milestones with instant accessibility and clean UI patterns.
+                            </p>
+                            <div class="project-tags">
+                                <span>Web Development</span>
+                                <span>UI/UX Design</span>
+                                <span>Responsive Layout</span>
+                            </div>
+                            <a href="https://ihmadi.com" target="_blank" rel="noopener noreferrer" class="btn-link">
+                                <span>Visit Website (ihmadi.com)</span> <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-card">
+                        <div class="project-badge">E-Commerce Platform</div>
+                        <div class="project-content">
+                            <div class="project-meta">
+                                <i class="fa-solid fa-store"></i> Digital Storefront
+                            </div>
+                            <h3 class="project-title">Gameflip Marketplace Platform</h3>
+                            <p class="project-description">
+                                Exploration and integration with high-volume digital asset storefronts and gaming commerce platforms. Focuses on secure transactional flows, category indexing, and gamer marketplace UX.
+                            </p>
+                            <div class="project-tags">
+                                <span>E-Commerce</span>
+                                <span>Digital Assets</span>
+                                <span>API Integration</span>
+                            </div>
+                            <a href="https://gameflip.com" target="_blank" rel="noopener noreferrer" class="btn-link">
+                                <span>Explore Marketplace (gameflip.com)</span> <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Project 4 -->
+                    <div class="project-card">
+                        <div class="project-badge">Interactive Gaming</div>
+                        <div class="project-content">
+                            <div class="project-meta">
+                                <i class="fa-solid fa-gamepad"></i> Game Engine & Systems
+                            </div>
+                            <h3 class="project-title">CrazyGames Web Gaming Engine</h3>
+                            <p class="project-description">
+                                Hands-on gaming project exploring browser-based game loop optimizations, real-time input handling, physics simulations, and web-based entertainment interfaces built for instant engagement.
+                            </p>
+                            <div class="project-tags">
+                                <span>Browser Games</span>
+                                <span>JavaScript Game Loop</span>
+                                <span>Interactive Mechanics</span>
+                            </div>
+                            <a href="https://crazygames.com" target="_blank" rel="noopener noreferrer" class="btn-link">
+                                <span>Play Platform (crazygames.com)</span> <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SLIDE 5: LANGUAGES & SOFT SKILLS -->
+        <section id="languages" class="slide">
+            <div class="slide-content">
+                <div class="section-header text-center">
+                    <div class="section-tag">&lt; 05. Global Communication & Skills &gt;</div>
+                    <h2 class="section-heading">Languages & <span class="gradient-text">Soft Skills</span></h2>
+                    <p class="section-subheading">
+                        Combining multilingual fluency with strategic interpersonal competence to drive effective tech collaboration.
+                    </p>
+                </div>
+
+                <div class="grid-2-col">
+                    <!-- Languages Box -->
+                    <div class="glass-card">
+                        <h3 class="card-title"><i class="fa-solid fa-language glow-icon"></i> Languages Spoken</h3>
+                        <div class="language-list">
+                            <div class="language-item">
+                                <div class="lang-info">
+                                    <span class="lang-name">Tamazight</span>
+                                    <span class="lang-level badge-tag">Native / Mother Language</span>
+                                </div>
+                                <div class="skill-bar-container"><div class="skill-bar" style="width: 100%;"></div></div>
+                            </div>
+                            <div class="language-item">
+                                <div class="lang-info">
+                                    <span class="lang-name">Arabic</span>
+                                    <span class="lang-level badge-tag">Native / Mother Language</span>
+                                </div>
+                                <div class="skill-bar-container"><div class="skill-bar" style="width: 100%;"></div></div>
+                            </div>
+                            <div class="language-item">
+                                <div class="lang-info">
+                                    <span class="lang-name">English</span>
+                                    <span class="lang-level badge-tag">C1 Level Advanced</span>
+                                </div>
+                                <div class="skill-bar-container"><div class="skill-bar" style="width: 90%;"></div></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Soft Skills Box -->
+                    <div class="glass-card">
+                        <h3 class="card-title"><i class="fa-solid fa-user-gear glow-icon"></i> Professional Soft Skills</h3>
+                        <div class="soft-skills-grid">
+                            <div class="soft-skill-pill">
+                                <i class="fa-solid fa-puzzle-piece"></i>
+                                <span>Complex Problem-Solving</span>
+                            </div>
+                            <div class="soft-skill-pill">
+                                <i class="fa-solid fa-arrows-spin"></i>
+                                <span>High Adaptability</span>
+                            </div>
+                            <div class="soft-skill-pill">
+                                <i class="fa-solid fa-rocket"></i>
+                                <span>Rapid Learning Curve</span>
+                            </div>
+                            <div class="soft-skill-pill">
+                                <i class="fa-solid fa-diagram-project"></i>
+                                <span>Technical Project Execution</span>
+                            </div>
+                            <div class="soft-skill-pill">
+                                <i class="fa-solid fa-people-group"></i>
+                                <span>Cross-Cultural Team Collaboration</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="languages-narrative glass-panel">
+                    <p>
+                        My multicultural background rooted in Tamazight and Arabic native heritage, paired with advanced C1 English fluency, empowers me to navigate global technology spaces with confidence. Whether communicating technical architecture to international stakeholders or collaborating across distributed open-source teams, language is my bridge to innovation.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SLIDE 6: INTERESTS & HOBBIES -->
+        <section id="interests" class="slide">
+            <div class="slide-content">
+                <div class="section-header text-center">
+                    <div class="section-tag">&lt; 06. Passions & Pursuits &gt;</div>
+                    <h2 class="section-heading">Interests & <span class="gradient-text">Hobbies</span></h2>
+                    <p class="section-subheading">
+                        Continuous intellectual curiosity fuels my creativity and sharpens my engineering mindset every day.
+                    </p>
+                </div>
+
+                <div class="interests-grid">
+                    <div class="interest-card">
+                        <div class="interest-icon-box">
+                            <i class="fa-solid fa-robot"></i>
+                        </div>
+                        <h3>Emerging AI Trends</h3>
+                        <p>Studying Large Language Model architectures, neural network optimizations, and generative AI research papers to build next-generation intelligent applications.</p>
+                    </div>
+
+                    <div class="interest-card">
+                        <div class="interest-icon-box">
+                            <i class="fa-solid fa-gears"></i>
+                        </div>
+                        <h3>Software Engineering</h3>
+                        <p>Architecting modular systems, exploring design patterns, and optimizing code speed and memory efficiency across distributed backend services.</p>
+                    </div>
+
+                    <div class="interest-card">
+                        <div class="interest-icon-box">
+                            <i class="fa-solid fa-terminal"></i>
+                        </div>
+                        <h3>Continuous Coding</h3>
+                        <p>Engaging in daily algorithmic challenges, participating in hackathons, and developing open-source side tools that simplify developer workflows.</p>
+                    </div>
+
+                    <div class="interest-card">
+                        <div class="interest-icon-box">
+                            <i class="fa-solid fa-user-shield"></i>
+                        </div>
+                        <h3>Cybersecurity Research</h3>
+                        <p>Exploring ethical hacking labs, network protocol security, and threat modeling to build software with security embedded into its core.</p>
+                    </div>
+                </div>
+
+                <div class="interests-narrative glass-panel text-center">
+                    <p>
+                        "Technology is not just my field of study—it is my creative canvas. Exploring emerging AI trends and cybersecurity research sharpens my analytical thinking, keeps me at the forefront of the industry, and empowers me to build software that makes a real impact."
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SLIDE 7: CONTACT & SOCIAL PROFILES -->
+        <section id="contact" class="slide">
+            <div class="slide-content">
+                <div class="section-header text-center">
+                    <div class="section-tag">&lt; 07. Connect With Me &gt;</div>
+                    <h2 class="section-heading">Get In <span class="gradient-text">Touch</span></h2>
+                    <p class="section-subheading">
+                        Have a project, collaboration, or opportunity in mind? Feel free to reach out directly!
+                    </p>
+                </div>
+
+                <div class="grid-2-col contact-container">
+                    <!-- Contact Info Panel -->
+                    <div class="contact-info-panel glass-card">
+                        <h3>Contact Information</h3>
+                        <p class="contact-intro">I am always open to discussing tech innovations, software engineering roles, or AI research projects.</p>
+
+                        <div class="contact-detail-list">
+                            <a href="tel:+212771247559" class="contact-detail-item">
+                                <div class="icon-circle"><i class="fa-solid fa-phone"></i></div>
+                                <div>
+                                    <span class="detail-label">Phone</span>
+                                    <span class="detail-value">+212 771247559</span>
+                                </div>
+                            </a>
+
+                            <a href="mailto:mohandmouacha0@gmail.com" class="contact-detail-item">
+                                <div class="icon-circle"><i class="fa-solid fa-envelope"></i></div>
+                                <div>
+                                    <span class="detail-label">Email</span>
+                                    <span class="detail-value">mohandmouacha0@gmail.com</span>
+                                </div>
+                            </a>
+
+                            <div class="contact-detail-item">
+                                <div class="icon-circle"><i class="fa-solid fa-location-dot"></i></div>
+                                <div>
+                                    <span class="detail-label">Location</span>
+                                    <span class="detail-value">Alnif, 52452, Tinghir Province, Drâa-Tafilalet</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Glowing Social Links -->
+                        <div class="social-links-wrapper">
+                            <h4>Connect via Social Media</h4>
+                            <div class="social-icons">
+                                <a href="https://github.com/mohandmouacha" target="_blank" rel="noopener noreferrer" class="social-icon-btn github" aria-label="GitHub Profile">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                                <a href="https://www.facebook.com/mohnd.mouacha.2025" target="_blank" rel="noopener noreferrer" class="social-icon-btn facebook" aria-label="Facebook Profile">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                                <a href="https://www.instagram.com/mohndmouacha" target="_blank" rel="noopener noreferrer" class="social-icon-btn instagram" aria-label="Instagram Profile">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Interactive Formspree Contact Form -->
+                    <div class="contact-form-panel glass-card">
+                        <h3>Send a Message</h3>
+                        <form id="contact-form" action="https://formspree.io/f/mvkzkavv" method="POST" class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name" name="name" placeholder="John Doe" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Your Email</label>
+                                <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" name="subject" placeholder="Project Inquiry / Collaboration" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Your Message</label>
+                                <textarea id="message" name="message" rows="4" placeholder="Hello Mohand, I would like to discuss..." required></textarea>
+                            </div>
+
+                            <button type="submit" id="submit-btn" class="btn btn-primary btn-block">
+                                <span class="btn-text">Send Message</span>
+                                <i class="fa-solid fa-paper-plane btn-icon"></i>
+                                <span class="spinner hidden"><i class="fa-solid fa-circle-notch fa-spin"></i> Sending...</span>
+                            </button>
+
+                            <div id="form-status" class="form-status hidden"></div>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Footer Copyright -->
+                <footer class="footer">
+                    <p>&copy; 2026 Mohand Mouacha. Crafted with passion & AI innovation.</p>
+                </footer>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
